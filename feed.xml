@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://fastpages.fast.ai/feed.xml" rel="self" type="application/atom+xml" /><link href="https://fastpages.fast.ai/" rel="alternate" type="text/html" /><updated>2020-03-24T21:50:37-05:00</updated><id>https://fastpages.fast.ai/feed.xml</id><title type="html">fastpages</title><subtitle>An easy to use blogging platform with support for Jupyter Notebooks.</subtitle><entry><title type="html">GitHub Actions: Providing Data Scientists With New Superpowers</title><link href="https://fastpages.fast.ai/actions/markdown/2020/03/06/fastpages-actions.html" rel="alternate" type="text/html" title="GitHub Actions: Providing Data Scientists With New Superpowers" /><published>2020-03-06T00:00:00-06:00</published><updated>2020-03-06T00:00:00-06:00</updated><id>https://fastpages.fast.ai/actions/markdown/2020/03/06/fastpages-actions</id><content type="html" xml:base="https://fastpages.fast.ai/actions/markdown/2020/03/06/fastpages-actions.html">&lt;h1 id=&quot;what-superpowers&quot;&gt;What Superpowers?&lt;/h1&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="https://respawn.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://respawn.io/" rel="alternate" type="text/html" /><updated>2020-03-24T21:58:20-05:00</updated><id>https://respawn.io/feed.xml</id><title type="html">Nate Gadzhibalaev</title><subtitle>Notes on making software and studying machine learning.</subtitle><entry><title type="html">GitHub Actions: Providing Data Scientists With New Superpowers</title><link href="https://respawn.io/2020/fastpages-actions/" rel="alternate" type="text/html" title="GitHub Actions: Providing Data Scientists With New Superpowers" /><published>2020-03-06T00:00:00-06:00</published><updated>2020-03-06T00:00:00-06:00</updated><id>https://respawn.io/2020/fastpages-actions</id><content type="html" xml:base="https://respawn.io/2020/fastpages-actions/">&lt;h1 id=&quot;what-superpowers&quot;&gt;What Superpowers?&lt;/h1&gt;
 
 &lt;p&gt;Hi, I’m &lt;a href=&quot;https://twitter.com/HamelHusain&quot;&gt;Hamel Husain&lt;/a&gt;.  I’m a machine learning engineer at GitHub.  Recently, GitHub released a new product called &lt;a href=&quot;https://github.com/features/actions&quot;&gt;GitHub Actions&lt;/a&gt;, which has mostly flown under the radar in the machine learning and data science community as just another continuous integration tool.&lt;/p&gt;
 
@@ -282,7 +282,7 @@
       &lt;p&gt;These additional dependencies are &lt;a href=&quot;https://github.com/fastai/fastpages/blob/master/_action_files/fastpages-jekyll.Dockerfile&quot;&gt;defined here&lt;/a&gt;, which uses the “jekyll build” command to add ruby dedpendencies from the Gemfile located at the root of the repo.  Additionally, this docker image is built by another Action workflow &lt;a href=&quot;https://github.com/fastai/fastpages/blob/master/.github/workflows/docker.yaml&quot;&gt;defined here&lt;/a&gt;. &lt;a href=&quot;#fnref:2&quot; class=&quot;reversefootnote&quot;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
     &lt;/li&gt;
   &lt;/ol&gt;
-&lt;/div&gt;</content><author><name>Hamel Husain &amp; Jeremy Howard</name></author><summary type="html">What Superpowers?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://fastpages.fast.ai/images/fastpages_posts/actions/actions_logo.png" /><media:content medium="image" url="https://fastpages.fast.ai/images/fastpages_posts/actions/actions_logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Introducing fastpages</title><link href="https://fastpages.fast.ai/fastpages/jupyter/2020/02/21/introducing-fastpages.html" rel="alternate" type="text/html" title="Introducing fastpages" /><published>2020-02-21T00:00:00-06:00</published><updated>2020-02-21T00:00:00-06:00</updated><id>https://fastpages.fast.ai/fastpages/jupyter/2020/02/21/introducing-fastpages</id><content type="html" xml:base="https://fastpages.fast.ai/fastpages/jupyter/2020/02/21/introducing-fastpages.html">&lt;!--
+&lt;/div&gt;</content><author><name>Hamel Husain &amp; Jeremy Howard</name></author><summary type="html">What Superpowers?</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://respawn.io/images/fastpages_posts/actions/actions_logo.png" /><media:content medium="image" url="https://respawn.io/images/fastpages_posts/actions/actions_logo.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Introducing fastpages</title><link href="https://respawn.io/2020/introducing-fastpages/" rel="alternate" type="text/html" title="Introducing fastpages" /><published>2020-02-21T00:00:00-06:00</published><updated>2020-02-21T00:00:00-06:00</updated><id>https://respawn.io/2020/introducing-fastpages</id><content type="html" xml:base="https://respawn.io/2020/introducing-fastpages/">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
@@ -326,7 +326,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Setting-Up-Fastpages&quot;&gt;Setting Up Fastpages&lt;a class=&quot;anchor-link&quot; href=&quot;#Setting-Up-Fastpages&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/fastai/fastpages#setup-instructions&quot;&gt;The setup process&lt;/a&gt; of fastpages is automated with GitHub Actions, too!  Upon creating a repo from the fastpages template, a pull request will automatically be opened (after ~ 30 seconds) configuring your blog so it can start working.  The automated pull request will greet you with instructions like this:&lt;/p&gt;
+&lt;h2 id=&quot;Setting-Up-Fastpages&quot;&gt;Setting Up Fastpages&lt;a class=&quot;anchor-link&quot; href=&quot;#Setting-Up-Fastpages&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://github.com/fastai/fastpages#setup-instructions&quot;&gt;The setup process&lt;/a&gt; of fastpages is automated with GitHub Actions, too!  Upon creating a repo from the fastpages template, a pull request will automatically be opened (after ~ 30 seconds) configuring your blog so it can start working.  The automated pull request will greet you with instructions like this:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://i.imgur.com/JhkIip8.png&quot; alt=&quot;Imgur&quot; /&gt;&lt;/p&gt;
 
 &lt;/div&gt;
@@ -341,20 +341,19 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Jupyter-Notebooks-&amp;amp;-Fastpages&quot;&gt;Jupyter Notebooks &amp;amp; Fastpages&lt;a class=&quot;anchor-link&quot; href=&quot;#Jupyter-Notebooks-&amp;amp;-Fastpages&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;In this post, we will cover special features that fastpages provides has for Jupyter notebooks.  You can also write your blog posts with Word documents or markdown in fastpages, which contain many, but not all the same features.&lt;/p&gt;
+&lt;h2 id=&quot;Jupyter-Notebooks-&amp;amp;-Fastpages&quot;&gt;Jupyter Notebooks &amp;amp; Fastpages&lt;a class=&quot;anchor-link&quot; href=&quot;#Jupyter-Notebooks-&amp;amp;-Fastpages&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;In this post, we will cover special features that fastpages provides has for Jupyter notebooks.  You can also write your blog posts with Word documents or markdown in fastpages, which contain many, but not all the same features.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Options-via-FrontMatter&quot;&gt;Options via FrontMatter&lt;a class=&quot;anchor-link&quot; href=&quot;#Options-via-FrontMatter&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The first cell in your Jupyter Notebook or markdown blog post contains front matter.  Front matter is metadata that can turn on/off options in your Notebook.  It is formatted like this:&lt;/p&gt;
+&lt;h3 id=&quot;Options-via-FrontMatter&quot;&gt;Options via FrontMatter&lt;a class=&quot;anchor-link&quot; href=&quot;#Options-via-FrontMatter&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;The first cell in your Jupyter Notebook or markdown blog post contains front matter.  Front matter is metadata that can turn on/off options in your Notebook.  It is formatted like this:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;# Title
 &amp;gt; Awesome summary
 
-- toc: true- branch: master
-- badges: true
+- toc: true- branch: master- badges: true
 - comments: true
 - author: Hamel Husain &amp;amp; Jeremy Howard
 - categories: [fastpages, jupyter]&lt;/code&gt;&lt;/pre&gt;
@@ -374,7 +373,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Code-Folding&quot;&gt;Code Folding&lt;a class=&quot;anchor-link&quot; href=&quot;#Code-Folding&quot;&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;Code-Folding&quot;&gt;Code Folding&lt;a class=&quot;anchor-link&quot; href=&quot;#Code-Folding&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -448,7 +447,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Interactive-Charts-With-Altair&quot;&gt;Interactive Charts With Altair&lt;a class=&quot;anchor-link&quot; href=&quot;#Interactive-Charts-With-Altair&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Interactive visualizations made with &lt;a href=&quot;https://altair-viz.github.io/&quot;&gt;Altair&lt;/a&gt; remain interactive!&lt;/p&gt;
+&lt;h3 id=&quot;Interactive-Charts-With-Altair&quot;&gt;Interactive Charts With Altair&lt;a class=&quot;anchor-link&quot; href=&quot;#Interactive-Charts-With-Altair&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Interactive visualizations made with &lt;a href=&quot;https://altair-viz.github.io/&quot;&gt;Altair&lt;/a&gt; remain interactive!&lt;/p&gt;
 &lt;p&gt;We leave this below cell unhidden so you can enjoy a preview of syntax highlighting in fastpages, which uses the &lt;a href=&quot;https://draculatheme.com/&quot;&gt;Dracula theme&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
@@ -576,7 +575,7 @@
 
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Data-Tables&quot;&gt;Data Tables&lt;a class=&quot;anchor-link&quot; href=&quot;#Data-Tables&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;You can display tables per the usual way in your blog:&lt;/p&gt;
+&lt;h3 id=&quot;Data-Tables&quot;&gt;Data Tables&lt;a class=&quot;anchor-link&quot; href=&quot;#Data-Tables&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;You can display tables per the usual way in your blog:&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -681,13 +680,13 @@
 
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Other-Feautures&quot;&gt;Other Feautures&lt;a class=&quot;anchor-link&quot; href=&quot;#Other-Feautures&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;Other-Feautures&quot;&gt;Other Feautures&lt;a class=&quot;anchor-link&quot; href=&quot;#Other-Feautures&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Images-w/Captions&quot;&gt;Images w/Captions&lt;a class=&quot;anchor-link&quot; href=&quot;#Images-w/Captions&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;You can include markdown images with captions like this:&lt;/p&gt;
+&lt;h3 id=&quot;Images-w/Captions&quot;&gt;Images w/Captions&lt;a class=&quot;anchor-link&quot; href=&quot;#Images-w/Captions&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;You can include markdown images with captions like this:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;![](https://www.fast.ai/images/fastai_paper/show_batch.png &quot;Credit: https://www.fast.ai/2020/02/13/fastai-A-Layered-API-for-Deep-Learning/&quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&quot;https://www.fast.ai/images/fastai_paper/show_batch.png&quot; alt=&quot;&quot; title=&quot;Credit: https://www.fast.ai/2020/02/13/fastai-A-Layered-API-for-Deep-Learning/&quot; /&gt;&lt;/p&gt;
@@ -698,7 +697,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Tweetcards&quot;&gt;Tweetcards&lt;a class=&quot;anchor-link&quot; href=&quot;#Tweetcards&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Typing &lt;code&gt;&amp;gt; twitter: https://twitter.com/jakevdp/status/1204765621767901185?s=20&lt;/code&gt; will render this:
+&lt;h3 id=&quot;Tweetcards&quot;&gt;Tweetcards&lt;a class=&quot;anchor-link&quot; href=&quot;#Tweetcards&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Typing &lt;code&gt;&amp;gt; twitter: https://twitter.com/jakevdp/status/1204765621767901185?s=20&lt;/code&gt; will render this:
 
 &lt;center&gt;
     &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Altair 4.0 is released! &lt;a href=&quot;https://t.co/PCyrIOTcvv&quot;&gt;https://t.co/PCyrIOTcvv&lt;/a&gt;&lt;br /&gt;Try it with:&lt;br /&gt;&lt;br /&gt;  pip install -U altair&lt;br /&gt;&lt;br /&gt;The full list of changes is at &lt;a href=&quot;https://t.co/roXmzcsT58&quot;&gt;https://t.co/roXmzcsT58&lt;/a&gt; ...read on for some highlights. &lt;a href=&quot;https://t.co/vWJ0ZveKbZ&quot;&gt;pic.twitter.com/vWJ0ZveKbZ&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jake VanderPlas (@jakevdp) &lt;a href=&quot;https://twitter.com/jakevdp/status/1204765621767901185?ref_src=twsrc%5Etfw&quot;&gt;December 11, 2019&lt;/a&gt;&lt;/blockquote&gt;
@@ -712,7 +711,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Youtube-Videos&quot;&gt;Youtube Videos&lt;a class=&quot;anchor-link&quot; href=&quot;#Youtube-Videos&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Typing &lt;code&gt;&amp;gt; youtube: https://youtu.be/XfoYk_Z5AkI&lt;/code&gt; will render this:
+&lt;h3 id=&quot;Youtube-Videos&quot;&gt;Youtube Videos&lt;a class=&quot;anchor-link&quot; href=&quot;#Youtube-Videos&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Typing &lt;code&gt;&amp;gt; youtube: https://youtu.be/XfoYk_Z5AkI&lt;/code&gt; will render this:
 
 &lt;center&gt;
     &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XfoYk_Z5AkI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
@@ -724,7 +723,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Boxes-/-Callouts&quot;&gt;Boxes / Callouts&lt;a class=&quot;anchor-link&quot; href=&quot;#Boxes-/-Callouts&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Typing &lt;code&gt;&amp;gt; Warning: There will be no second warning!&lt;/code&gt; will render this:
+&lt;h3 id=&quot;Boxes-/-Callouts&quot;&gt;Boxes / Callouts&lt;a class=&quot;anchor-link&quot; href=&quot;#Boxes-/-Callouts&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Typing &lt;code&gt;&amp;gt; Warning: There will be no second warning!&lt;/code&gt; will render this:
 &lt;div class=&quot;flash flash-error&quot;&gt;
     &lt;svg class=&quot;octicon octicon-alert octicon octicon-alert&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
     &lt;strong&gt;Warning: &lt;/strong&gt;There will be no second warning!
@@ -755,14 +754,14 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;More-Examples&quot;&gt;More Examples&lt;a class=&quot;anchor-link&quot; href=&quot;#More-Examples&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This &lt;a href=&quot;https://fastpages.fast.ai/fastpages/jupyter/2020/02/20/test.html&quot;&gt;tutorial&lt;/a&gt; contains more examples of what you can do with notebooks.&lt;/p&gt;
+&lt;h2 id=&quot;More-Examples&quot;&gt;More Examples&lt;a class=&quot;anchor-link&quot; href=&quot;#More-Examples&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;This &lt;a href=&quot;https://fastpages.fast.ai/fastpages/jupyter/2020/02/20/test.html&quot;&gt;tutorial&lt;/a&gt; contains more examples of what you can do with notebooks.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;How-fastpages-Converts-Notebooks-to-Blog-Posts&quot;&gt;How fastpages Converts Notebooks to Blog Posts&lt;a class=&quot;anchor-link&quot; href=&quot;#How-fastpages-Converts-Notebooks-to-Blog-Posts&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;How-fastpages-Converts-Notebooks-to-Blog-Posts&quot;&gt;How fastpages Converts Notebooks to Blog Posts&lt;a class=&quot;anchor-link&quot; href=&quot;#How-fastpages-Converts-Notebooks-to-Blog-Posts&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -776,7 +775,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Resources-&amp;amp;-Next-Steps&quot;&gt;Resources &amp;amp; Next Steps&lt;a class=&quot;anchor-link&quot; href=&quot;#Resources-&amp;amp;-Next-Steps&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;Resources-&amp;amp;-Next-Steps&quot;&gt;Resources &amp;amp; Next Steps&lt;a class=&quot;anchor-link&quot; href=&quot;#Resources-&amp;amp;-Next-Steps&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -793,7 +792,7 @@
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content><author><name>Jeremy Howard &amp; Hamel Husain</name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://fastpages.fast.ai/images/diagram.png" /><media:content medium="image" url="https://fastpages.fast.ai/images/diagram.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://fastpages.fast.ai/jupyter/2020/02/20/test.html" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>https://fastpages.fast.ai/jupyter/2020/02/20/test</id><content type="html" xml:base="https://fastpages.fast.ai/jupyter/2020/02/20/test.html">&lt;!--
+&lt;/div&gt;</content><author><name>Jeremy Howard &amp; Hamel Husain</name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://respawn.io/images/diagram.png" /><media:content medium="image" url="https://respawn.io/images/diagram.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Fastpages Notebook Blog Post</title><link href="https://respawn.io/2020/test/" rel="alternate" type="text/html" title="Fastpages Notebook Blog Post" /><published>2020-02-20T00:00:00-06:00</published><updated>2020-02-20T00:00:00-06:00</updated><id>https://respawn.io/2020/test</id><content type="html" xml:base="https://respawn.io/2020/test/">&lt;!--
 #################################################
 ### THIS FILE WAS AUTOGENERATED! DO NOT EDIT! ###
 #################################################
@@ -811,7 +810,7 @@
 
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h1 id=&quot;About&quot;&gt;About&lt;a class=&quot;anchor-link&quot; href=&quot;#About&quot;&gt; &lt;/a&gt;&lt;/h1&gt;&lt;p&gt;This notebook is a demonstration of some of capabilities of &lt;a href=&quot;https://github.com/fastai/fastpages&quot;&gt;fastpages&lt;/a&gt; with notebooks.&lt;/p&gt;
+&lt;h1 id=&quot;About&quot;&gt;About&lt;a class=&quot;anchor-link&quot; href=&quot;#About&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;This notebook is a demonstration of some of capabilities of &lt;a href=&quot;https://github.com/fastai/fastpages&quot;&gt;fastpages&lt;/a&gt; with notebooks.&lt;/p&gt;
 &lt;p&gt;With &lt;code&gt;fastpages&lt;/code&gt; you can save your jupyter notebooks into the &lt;code&gt;_notebooks&lt;/code&gt; folder at the root of your repository, and they will be automatically be converted to Jekyll compliant blog posts!&lt;/p&gt;
 
 &lt;/div&gt;
@@ -819,13 +818,12 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Front-Matter&quot;&gt;Front Matter&lt;a class=&quot;anchor-link&quot; href=&quot;#Front-Matter&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The first cell in your Jupyter Notebook or markdown blog post contains front matter. Front matter is metadata that can turn on/off options in your Notebook. It is formatted like this:&lt;/p&gt;
+&lt;h2 id=&quot;Front-Matter&quot;&gt;Front Matter&lt;a class=&quot;anchor-link&quot; href=&quot;#Front-Matter&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;The first cell in your Jupyter Notebook or markdown blog post contains front matter. Front matter is metadata that can turn on/off options in your Notebook. It is formatted like this:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;# Title
 &amp;gt; Awesome summary
 
-- toc: true- branch: master- badges: true- comments: true
-- author: Hamel Husain &amp;amp; Jeremy Howard
+- toc: true- branch: master- badges: true- comments: true- author: Hamel Husain &amp;amp; Jeremy Howard
 - categories: [fastpages, jupyter]&lt;/code&gt;&lt;/pre&gt;
 &lt;ul&gt;
 &lt;li&gt;Setting &lt;code&gt;toc: true&lt;/code&gt; will automatically generate a table of contents&lt;/li&gt;
@@ -839,7 +837,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Markdown-Shortcuts&quot;&gt;Markdown Shortcuts&lt;a class=&quot;anchor-link&quot; href=&quot;#Markdown-Shortcuts&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;Markdown-Shortcuts&quot;&gt;Markdown Shortcuts&lt;a class=&quot;anchor-link&quot; href=&quot;#Markdown-Shortcuts&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -935,14 +933,14 @@
 
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Interactive-Charts-With-Altair&quot;&gt;Interactive Charts With Altair&lt;a class=&quot;anchor-link&quot; href=&quot;#Interactive-Charts-With-Altair&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Charts made with Altair remain interactive.  Example charts taken from &lt;a href=&quot;https://github.com/uwdata/visualization-curriculum&quot;&gt;this repo&lt;/a&gt;, specifically &lt;a href=&quot;https://github.com/uwdata/visualization-curriculum/blob/master/altair_interaction.ipynb&quot;&gt;this notebook&lt;/a&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;Interactive-Charts-With-Altair&quot;&gt;Interactive Charts With Altair&lt;a class=&quot;anchor-link&quot; href=&quot;#Interactive-Charts-With-Altair&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Charts made with Altair remain interactive.  Example charts taken from &lt;a href=&quot;https://github.com/uwdata/visualization-curriculum&quot;&gt;this repo&lt;/a&gt;, specifically &lt;a href=&quot;https://github.com/uwdata/visualization-curriculum/blob/master/altair_interaction.ipynb&quot;&gt;this notebook&lt;/a&gt;.&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Example-1:-DropDown&quot;&gt;Example 1: DropDown&lt;a class=&quot;anchor-link&quot; href=&quot;#Example-1:-DropDown&quot;&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;Example-1:-DropDown&quot;&gt;Example 1: DropDown&lt;a class=&quot;anchor-link&quot; href=&quot;#Example-1:-DropDown&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1043,7 +1041,7 @@
 
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Example-2:-Tooltips&quot;&gt;Example 2: Tooltips&lt;a class=&quot;anchor-link&quot; href=&quot;#Example-2:-Tooltips&quot;&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;Example-2:-Tooltips&quot;&gt;Example 2: Tooltips&lt;a class=&quot;anchor-link&quot; href=&quot;#Example-2:-Tooltips&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1136,7 +1134,7 @@
 
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Example-3:-More-Tooltips&quot;&gt;Example 3: More Tooltips&lt;a class=&quot;anchor-link&quot; href=&quot;#Example-3:-More-Tooltips&quot;&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;h3 id=&quot;Example-3:-More-Tooltips&quot;&gt;Example 3: More Tooltips&lt;a class=&quot;anchor-link&quot; href=&quot;#Example-3:-More-Tooltips&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1262,7 +1260,7 @@
 
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Data-Tables&quot;&gt;Data Tables&lt;a class=&quot;anchor-link&quot; href=&quot;#Data-Tables&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;You can display tables per the usual way in your blog:&lt;/p&gt;
+&lt;h2 id=&quot;Data-Tables&quot;&gt;Data Tables&lt;a class=&quot;anchor-link&quot; href=&quot;#Data-Tables&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;You can display tables per the usual way in your blog:&lt;/p&gt;
 
 &lt;/div&gt;
 &lt;/div&gt;
@@ -1385,7 +1383,7 @@
 
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Images&quot;&gt;Images&lt;a class=&quot;anchor-link&quot; href=&quot;#Images&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;h3 id=&quot;Local-Images&quot;&gt;Local Images&lt;a class=&quot;anchor-link&quot; href=&quot;#Local-Images&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;You can reference local images and they will be copied and rendered on your blog automatically.  You can include these with the following markdown syntax:&lt;/p&gt;
+&lt;h2 id=&quot;Images&quot;&gt;Images&lt;a class=&quot;anchor-link&quot; href=&quot;#Images&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;h3 id=&quot;Local-Images&quot;&gt;Local Images&lt;a class=&quot;anchor-link&quot; href=&quot;#Local-Images&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;You can reference local images and they will be copied and rendered on your blog automatically.  You can include these with the following markdown syntax:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;![](my_icons/fastai_logo.png)&lt;/code&gt;&lt;/p&gt;
 
 &lt;/div&gt;
@@ -1400,7 +1398,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Remote-Images&quot;&gt;Remote Images&lt;a class=&quot;anchor-link&quot; href=&quot;#Remote-Images&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Remote images can be included with the following markdown syntax:&lt;/p&gt;
+&lt;h3 id=&quot;Remote-Images&quot;&gt;Remote Images&lt;a class=&quot;anchor-link&quot; href=&quot;#Remote-Images&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Remote images can be included with the following markdown syntax:&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;![](https://image.flaticon.com/icons/svg/36/36686.svg)&lt;/code&gt;&lt;/p&gt;
 
 &lt;/div&gt;
@@ -1415,7 +1413,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Animated-Gifs&quot;&gt;Animated Gifs&lt;a class=&quot;anchor-link&quot; href=&quot;#Animated-Gifs&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Animated Gifs work, too!&lt;/p&gt;
+&lt;h3 id=&quot;Animated-Gifs&quot;&gt;Animated Gifs&lt;a class=&quot;anchor-link&quot; href=&quot;#Animated-Gifs&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;Animated Gifs work, too!&lt;/p&gt;
 &lt;p&gt;&lt;code&gt;![](https://upload.wikimedia.org/wikipedia/commons/7/71/ChessPawnSpecialMoves.gif)&lt;/code&gt;&lt;/p&gt;
 
 &lt;/div&gt;
@@ -1430,7 +1428,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h3 id=&quot;Captions&quot;&gt;Captions&lt;a class=&quot;anchor-link&quot; href=&quot;#Captions&quot;&gt; &lt;/a&gt;&lt;/h3&gt;&lt;p&gt;You can include captions with markdown images like this:&lt;/p&gt;
+&lt;h3 id=&quot;Captions&quot;&gt;Captions&lt;a class=&quot;anchor-link&quot; href=&quot;#Captions&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;You can include captions with markdown images like this:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;![](https://www.fast.ai/images/fastai_paper/show_batch.png &quot;Credit: https://www.fast.ai/2020/02/13/fastai-A-Layered-API-for-Deep-Learning/&quot;)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;&lt;img src=&quot;https://www.fast.ai/images/fastai_paper/show_batch.png&quot; alt=&quot;&quot; title=&quot;Credit: https://www.fast.ai/2020/02/13/fastai-A-Layered-API-for-Deep-Learning/&quot; /&gt;&lt;/p&gt;
@@ -1440,13 +1438,13 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h1 id=&quot;Other-Elements&quot;&gt;Other Elements&lt;a class=&quot;anchor-link&quot; href=&quot;#Other-Elements&quot;&gt; &lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id=&quot;Other-Elements&quot;&gt;Other Elements&lt;a class=&quot;anchor-link&quot; href=&quot;#Other-Elements&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h1&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Tweetcards&quot;&gt;Tweetcards&lt;a class=&quot;anchor-link&quot; href=&quot;#Tweetcards&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Typing &lt;code&gt;&amp;gt; twitter: https://twitter.com/jakevdp/status/1204765621767901185?s=20&lt;/code&gt; will render this:
+&lt;h2 id=&quot;Tweetcards&quot;&gt;Tweetcards&lt;a class=&quot;anchor-link&quot; href=&quot;#Tweetcards&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Typing &lt;code&gt;&amp;gt; twitter: https://twitter.com/jakevdp/status/1204765621767901185?s=20&lt;/code&gt; will render this:
 
 &lt;center&gt;
     &lt;div class=&quot;jekyll-twitter-plugin&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;Altair 4.0 is released! &lt;a href=&quot;https://t.co/PCyrIOTcvv&quot;&gt;https://t.co/PCyrIOTcvv&lt;/a&gt;&lt;br /&gt;Try it with:&lt;br /&gt;&lt;br /&gt;  pip install -U altair&lt;br /&gt;&lt;br /&gt;The full list of changes is at &lt;a href=&quot;https://t.co/roXmzcsT58&quot;&gt;https://t.co/roXmzcsT58&lt;/a&gt; ...read on for some highlights. &lt;a href=&quot;https://t.co/vWJ0ZveKbZ&quot;&gt;pic.twitter.com/vWJ0ZveKbZ&lt;/a&gt;&lt;/p&gt;&amp;mdash; Jake VanderPlas (@jakevdp) &lt;a href=&quot;https://twitter.com/jakevdp/status/1204765621767901185?ref_src=twsrc%5Etfw&quot;&gt;December 11, 2019&lt;/a&gt;&lt;/blockquote&gt;
@@ -1460,7 +1458,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Youtube-Videos&quot;&gt;Youtube Videos&lt;a class=&quot;anchor-link&quot; href=&quot;#Youtube-Videos&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Typing &lt;code&gt;&amp;gt; youtube: https://youtu.be/XfoYk_Z5AkI&lt;/code&gt; will render this:
+&lt;h2 id=&quot;Youtube-Videos&quot;&gt;Youtube Videos&lt;a class=&quot;anchor-link&quot; href=&quot;#Youtube-Videos&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Typing &lt;code&gt;&amp;gt; youtube: https://youtu.be/XfoYk_Z5AkI&lt;/code&gt; will render this:
 
 &lt;center&gt;
     &lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/XfoYk_Z5AkI&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
@@ -1472,7 +1470,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Boxes-/-Callouts&quot;&gt;Boxes / Callouts&lt;a class=&quot;anchor-link&quot; href=&quot;#Boxes-/-Callouts&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Typing &lt;code&gt;&amp;gt; Warning: There will be no second warning!&lt;/code&gt; will render this:
+&lt;h2 id=&quot;Boxes-/-Callouts&quot;&gt;Boxes / Callouts&lt;a class=&quot;anchor-link&quot; href=&quot;#Boxes-/-Callouts&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;Typing &lt;code&gt;&amp;gt; Warning: There will be no second warning!&lt;/code&gt; will render this:
 &lt;div class=&quot;flash flash-error&quot;&gt;
     &lt;svg class=&quot;octicon octicon-alert&quot; viewBox=&quot;0 0 16 16&quot; version=&quot;1.1&quot; width=&quot;16&quot; height=&quot;16&quot; aria-hidden=&quot;true&quot;&gt;&lt;path fill-rule=&quot;evenodd&quot; d=&quot;M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 000 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 00.01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z&quot;&gt;&lt;/path&gt;&lt;/svg&gt;
     &lt;strong&gt;Warning: &lt;/strong&gt;There will be no second warning!
@@ -1503,7 +1501,7 @@
 &lt;/div&gt;
 &lt;div class=&quot;cell border-box-sizing text_cell rendered&quot;&gt;&lt;div class=&quot;inner_cell&quot;&gt;
 &lt;div class=&quot;text_cell_render border-box-sizing rendered_html&quot;&gt;
-&lt;h2 id=&quot;Footnotes&quot;&gt;Footnotes&lt;a class=&quot;anchor-link&quot; href=&quot;#Footnotes&quot;&gt; &lt;/a&gt;&lt;/h2&gt;&lt;p&gt;You can have footnotes in notebooks, however the syntax is different compared to markdown documents. &lt;a href=&quot;https://github.com/fastai/fastpages/blob/master/_fastpages_docs/NOTEBOOK_FOOTNOTES.md&quot;&gt;This guide provides more detail about this syntax&lt;/a&gt;, which looks like this:&lt;/p&gt;
+&lt;h2 id=&quot;Footnotes&quot;&gt;Footnotes&lt;a class=&quot;anchor-link&quot; href=&quot;#Footnotes&quot;&gt;&amp;#182;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;You can have footnotes in notebooks, however the syntax is different compared to markdown documents. &lt;a href=&quot;https://github.com/fastai/fastpages/blob/master/_fastpages_docs/NOTEBOOK_FOOTNOTES.md&quot;&gt;This guide provides more detail about this syntax&lt;/a&gt;, which looks like this:&lt;/p&gt;
 
 &lt;pre&gt;&lt;code&gt;For example, here is a footnote {% fn 1 %}.
 And another {% fn 2 %}
@@ -1517,7 +1515,7 @@ And another {% fn 2 %}
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://fastpages.fast.ai/images/chart-preview.png" /><media:content medium="image" url="https://fastpages.fast.ai/images/chart-preview.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">An Example Markdown Post</title><link href="https://fastpages.fast.ai/markdown/2020/01/14/test-markdown-post.html" rel="alternate" type="text/html" title="An Example Markdown Post" /><published>2020-01-14T00:00:00-06:00</published><updated>2020-01-14T00:00:00-06:00</updated><id>https://fastpages.fast.ai/markdown/2020/01/14/test-markdown-post</id><content type="html" xml:base="https://fastpages.fast.ai/markdown/2020/01/14/test-markdown-post.html">&lt;h1 id=&quot;example-markdown-post&quot;&gt;Example Markdown Post&lt;/h1&gt;
+&lt;/div&gt;</content><author><name></name></author><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://respawn.io/images/chart-preview.png" /><media:content medium="image" url="https://respawn.io/images/chart-preview.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">An Example Markdown Post</title><link href="https://respawn.io/2020/test-markdown-post/" rel="alternate" type="text/html" title="An Example Markdown Post" /><published>2020-01-14T00:00:00-06:00</published><updated>2020-01-14T00:00:00-06:00</updated><id>https://respawn.io/2020/test-markdown-post</id><content type="html" xml:base="https://respawn.io/2020/test-markdown-post/">&lt;h1 id=&quot;example-markdown-post&quot;&gt;Example Markdown Post&lt;/h1&gt;
 
 &lt;h2 id=&quot;basic-setup&quot;&gt;Basic setup&lt;/h2&gt;
 
