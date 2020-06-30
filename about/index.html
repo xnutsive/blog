@@ -13,7 +13,7 @@
 <meta property="og:url" content="https://respawn.io/about/" />
 <meta property="og:site_name" content="Nate Gadzhibalaev" />
 <script type="application/ld+json">
-{"description":"Notes on making software and studying machine learning.","@type":"WebSite","url":"https://respawn.io/about/","name":"Nate Gadzhibalaev","headline":"About Me","@context":"https://schema.org"}</script>
+{"headline":"About Me","description":"Notes on making software and studying machine learning.","@type":"WebSite","url":"https://respawn.io/about/","name":"Nate Gadzhibalaev","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://respawn.io/feed.xml" title="Nate Gadzhibalaev" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -32,7 +32,7 @@
 <meta property="og:url" content="https://respawn.io/about/" />
 <meta property="og:site_name" content="Nate Gadzhibalaev" />
 <script type="application/ld+json">
-{"description":"Notes on making software and studying machine learning.","@type":"WebSite","url":"https://respawn.io/about/","name":"Nate Gadzhibalaev","headline":"About Me","@context":"https://schema.org"}</script>
+{"headline":"About Me","description":"Notes on making software and studying machine learning.","@type":"WebSite","url":"https://respawn.io/about/","name":"Nate Gadzhibalaev","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 <link href="https://unpkg.com/@primer/css/dist/primer.css" rel="stylesheet" />
@@ -49,7 +49,7 @@ function wrap_img(fn) {
     if (document.attachEvent ? document.readyState === "complete" : document.readyState !== "loading") {
         var elements = document.querySelectorAll(".post img");
         Array.prototype.forEach.call(elements, function(el, i) {
-            if (el.getAttribute("title")) {
+            if (el.getAttribute("title") && (el.className != "emoji")) {
                 const caption = document.createElement('figcaption');
                 var node = document.createTextNode(el.getAttribute("title"));
                 caption.appendChild(node);
@@ -97,10 +97,7 @@ window.onload = wrap_img;
   </header>
 
   <div class="post-content">
-    <p>Hey, I’m Nate. I’m an <a href="https://evilmartians.com">Evil Martians</a>, we build software products.
-I’ve also co-founded <a href="https://amplifr.com">Amplifr</a>, and I’m curious about applied deep learning, and deep learning research.</p>
-
-<p>This blog is my attempt to not learn not only by reading and building, but also by explaining and sharing what I’ve built.</p>
+    <p>This is where you put the contents of your <em>About</em> page. Like all your pages, it’s in <a href="https://guides.github.com/features/mastering-markdown/">Markdown</a> format.</p>
 
 <p>This website is powered by <strong><a href="https://github.com/fastai/fastpages">fastpages</a></strong> <sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup>.</p>
 
