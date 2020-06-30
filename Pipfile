@@ -7,8 +7,10 @@ verify_ssl = true
 jupyter = "*"
 nbdev = "*"
 watchdog = {extras = ["watchmedo"], version = "*"}
+dvc = ">= 1.1.1"
+jupyter-contrib-nbextensions = "*"
 
 [packages]
 
 [requires]
-python_version = "3.8"
+python_version = "3.7"
